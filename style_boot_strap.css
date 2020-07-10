@@ -1,0 +1,33 @@
+header .fixed-top{
+    width:100vw;
+    height:65px;
+    background-color: gray;
+    overflow: hidden;
+}
+header .fixed-top .logo1{
+    width:200px;
+    display: inline-block;
+    margin:10px 0px 0px 10px;
+}
+header .left_icon{
+    width:160px;
+    display: inline-block;
+    margin:10px 0px 0px 10px;
+}
+header .right_icon{
+    width:380px;
+    height:50px;
+    float:right;
+
+}
+header .right_icon a{
+    width:14%;
+    line-height: 50px;
+    border:1px solid black;
+    border-radius: 2px;
+    margin:0px 0px;
+    box-sizing: border-box;
+}
+header .right_icon a:nth-child(3){
+    width:41%;
+}
