@@ -1,33 +1,58 @@
 header .fixed-top{
     width:100vw;
     height:65px;
-    background-color: gray;
+    background-color: white;
     overflow: hidden;
+    position:fixed;
 }
 header .fixed-top .logo1{
-    width:200px;
-    display: inline-block;
+    width:249px;
+    line-height: 65px;
+    float: left;
     margin:10px 0px 0px 10px;
 }
-header .left_icon{
+header .fixed-top .left_icon{
     width:160px;
-    display: inline-block;
+    float:left;
     margin:10px 0px 0px 10px;
+    padding: 10px 0 0 15px;
 }
-header .right_icon{
-    width:380px;
-    height:50px;
-    float:right;
-
-}
-header .right_icon a{
-    width:14%;
-    line-height: 50px;
-    border:1px solid black;
-    border-radius: 2px;
-    margin:0px 0px;
+header .fixed-top .left_icon a{
+    float:left;
+    width:33%;
     box-sizing: border-box;
+    text-align: center;
 }
-header .right_icon a:nth-child(3){
-    width:41%;
+header .fixed-top .left_icon a:nth-child(1){
+    color:#00A6EB;
+    border-bottom: 1px solid #00A6EB;
+    padding-bottom: 5px;
 }
+header .fixed-top .right_icon{
+    width:383.31px;
+    float:right;
+    z-index: 1;
+    padding: 11px 15px 0 0;
+    overflow: hidden;
+}
+header .fixed-top .right_icon a{
+    width:14%;
+    height:42px;
+    line-height:42px;
+    border: solid 1px #dfdfdf;
+    border-radius: 4px;
+    color: #828282;
+    box-sizing: border-box;
+    float:left;
+    margin-right: -2px;
+    padding:5px 0px 5px 0px;
+    text-align: center;
+}
+header .fixed-top .right_icon a:nth-child(3){
+    color:white;
+    text-decoration-line: none;
+    width:42%;
+    background-color: #00A6EB;
+    border:none;
+}
+
